@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>স্মৃতি অ্যালবাম | শহীদ শরীফ ওসমান হাদি</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            navy: '#0f172a',
+                            slate: '#1e293b',
+                            emerald: '#10b981',
+                            crimson: '#e11d48',
+                        }
+                    },
+                    fontFamily: {
+                        heading: ['Siyam Rupali', 'Hind Siliguri', 'sans-serif'],
+                        subheading: ['Hind Siliguri', 'sans-serif'],
+                        body: ['Anek Bangla', 'sans-serif'],
+                        bengali: ['Anek Bangla', 'sans-serif'],
+                        accent: ['Atma', 'cursive'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css?v=2.1">
+</head>
+
+<body class="bg-brand-navy text-white font-body selection:bg-brand-crimson/30">
+    <nav
+        class="fixed top-0 left-0 w-full z-50 bg-brand-navy/80 backdrop-blur-xl border-b border-white/5 transition-all duration-300 glass-nav">
+        <div class="container mx-auto px-6 h-24 flex items-center justify-between">
+            <a href="index.html#hero"
+                class="logo text-2xl font-black bg-gradient-to-r from-white to-white/60 bg-clip-text text-transparent tracking-tighter hover:to-brand-crimson transition-all duration-500">শহীদ
+                ওসমান হাদি</a>
+            <ul class="hidden md:flex gap-10 items-center nav-links">
+                <li><a href="index.html#hero"
+                        class="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">হোম</a>
+                </li>
+                <li><a href="index.html#biography"
+                        class="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">জীবনী</a></li>
+                <li><a href="gallery.html" class="text-sm font-bold text-brand-emerald">গ্যালারি</a></li>
+                <li><a href="index.html#timeline"
+                        class="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">সময়রেখা</a></li>
+                <li><a href="index.html#quotes"
+                        class="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">উক্তি</a></li>
+                <li><a href="index.html#justice"
+                        class="px-5 py-2.5 bg-brand-crimson/10 border border-brand-crimson/20 rounded-full text-brand-crimson text-sm font-black hover:bg-brand-crimson hover:text-white transition-all duration-300">বিচার
+                        চাই</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="pt-32">
+        <section class="py-32 section alternate-bg">
+            <div class="container mx-auto px-6 relative z-10">
+                <div class="text-center mb-16 px-4">
+                    <h2 class="text-6xl font-black text-white/10 uppercase tracking-tighter leading-none mb-4">Memory
+                        Album</h2>
+                    <h3 class="text-5xl font-black text-white font-heading cinematic-heading section-title">পূর্ণাঙ্গ
+                        স্মৃতি
+                        অ্যালবাম</h3>
+                    <p class="text-xl text-white/40 mt-4 max-w-2xl mx-auto">বিপ্লব, সাহিত্য ও জীবনের অমলিন মুহূর্তসমূহ
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-6 py-8 bento-gallery">
+                    <!-- Major Focus: Video -->
+                    <div class="md:col-span-2 row-span-1 bento-item bento-large reveal-up">
+                        <div class="bento-content">
+                            <iframe src="https://www.youtube.com/embed/cKY5C-2HnUY?si=tq9c6jFygkWx2Piq"
+                                class="w-full h-full object-cover" title="শহীদ ওসমান হাদি - বক্তব্য" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <div class="media-overlay w-full p-8 transition-all duration-300">
+                                <span class="category text-xs tracking-[0.2em] font-black">বক্তব্য</span>
+                                <h3 class="text-xl font-black mt-2 font-heading">বিপ্লবের রাজপথে কণ্ঠস্বর</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Photo: Book -->
+                    <div class="bento-item bento-medium reveal-up" style="transition-delay: 0.1s;">
+                        <div class="bento-content">
+                            <img src="assets/Osman-Hadi.jpg" alt="ওসমান হাদির বই" class="w-full h-full object-cover">
+                            <div class="media-overlay w-full p-8 transition-all duration-300">
+                                <span class="category text-xs tracking-[0.2em] font-black">সাহিত্য</span>
+                                <h3 class="text-lg font-black mt-1 font-heading">লভায় লালশাক পূবের আকাশ</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Local Video / Animation -->
+                    <div class="md:row-span-2 bento-item bento-tall reveal-up" style="transition-delay: 0.2s;">
+                        <div class="bento-content">
+                            <img src="assets/8f47e6b93edaf5672e43f1c575ddf0db2b6fe0a5b96a1330.jpg" alt="স্মৃতি"
+                                class="w-full h-full object-cover">
+                            <div class="media-overlay w-full p-8 transition-all duration-300">
+                                <span class="category text-xs tracking-[0.2em] font-black">স্মৃতি</span>
+                                <h3 class="text-xl font-black mt-2 font-heading">বিরামহীন সংগ্রাম</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Small Photos -->
+                    <div class="bento-item bento-small reveal-up" style="transition-delay: 0.3s;">
+                        <div class="bento-content">
+                            <img src="assets/hero-rally..webp" alt="আন্দোলন" class="w-full h-full object-cover">
+                            <div class="media-overlay w-full p-8 transition-all duration-300">
+                                <span class="category text-xs tracking-[0.2em] font-black uppercase">জুলাই বিপ্লব</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bento-item bento-small reveal-up" style="transition-delay: 0.4s;">
+                        <div class="bento-content">
+                            <img src="assets/image-343646-1766224013.jpg" alt="বিচার দাবি"
+                                class="w-full h-full object-cover">
+                            <div class="media-overlay w-full p-8 transition-all duration-300">
+                                <span class="category text-xs tracking-[0.2em] font-black uppercase">বিচার চাই</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quote/Card item -->
+                    <div class="bento-item bento-accent bg-brand-emerald/10 reveal-up flex items-center justify-center text-center p-8"
+                        style="transition-delay: 0.5s;">
+                        <div class="accent-inner">
+                            <span class="icon text-5xl mb-4 block">🏛️</span>
+                            <h3 class="text-xl font-black text-white mb-2 font-heading">জাতীয় সরকার</h3>
+                            <p class="text-brand-emerald font-black leading-tight">ঐতিহাসিক ডাক ও রাজনৈতিক দর্শন</p>
+                        </div>
+                    </div>
+
+                    <!-- Block 2: Additional Items -->
+                    <div class="bento-item bento-medium reveal-up" style="transition-delay: 0.6s;">
+                        <div class="bento-content">
+                            <img src="assets/23cef3fac665b11c69879d5198dbd755c52f11776a048789.jpg" alt="জনগণ"
+                                class="w-full h-full object-cover">
+                            <div class="media-overlay w-full p-8 transition-all duration-300">
+                                <span class="category text-xs tracking-[0.2em] font-black">জনস্রোত</span>
+                                <h3 class="text-lg font-black mt-1 font-heading">বিপ্লবের পদযাত্রা</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:col-span-2 bento-item bento-large reveal-up" style="transition-delay: 0.7s;">
+                        <div class="bento-content">
+                            <iframe src="https://www.youtube.com/embed/cKY5C-2HnUY?si=tq9c6jFygkWx2Piq"
+                                class="w-full h-full object-cover" title="শহীদ ওসমান হাদি - স্মারক" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <div class="media-overlay w-full p-8 transition-all duration-300">
+                                <span class="category text-xs tracking-[0.2em] font-black">স্মারক</span>
+                                <h3 class="text-xl font-black mt-2 font-heading">বিপ্লবী স্মৃতিচারণ</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bento-item bento-small reveal-up" style="transition-delay: 0.8s;">
+                        <div class="bento-content">
+                            <img src="assets/hadi-1766234773.jpg" alt="প্রতিবাদ" class="w-full h-full object-cover">
+                            <div class="media-overlay w-full p-8 transition-all duration-300">
+                                <span class="category text-xs tracking-[0.2em] font-black uppercase">প্রতিবাদ</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:row-span-1 bento-item bento-medium reveal-up" style="transition-delay: 0.9s;">
+                        <div class="bento-content">
+                            <img src="assets/osman4-BZsl1Qk-.jpg" alt="ঐতিহ্য" class="w-full h-full object-cover">
+                            <div class="media-overlay w-full p-8 transition-all duration-300">
+                                <span class="category text-xs tracking-[0.2em] font-black">উত্তরাধিকার</span>
+                                <h3 class="text-lg font-black mt-1 font-heading">নতুন প্রজন্মের প্রেরণা</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-20">
+                    <a href="index.html"
+                        class="px-10 py-5 bg-white/5 border border-white/10 rounded-2xl text-white font-black hover:bg-brand-emerald hover:border-brand-emerald transition-all duration-500">মূল
+                        পাতায় ফিরে যান</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-16 bg-brand-navy border-t border-white/5 text-center">
+        <div class="container mx-auto px-6">
+            <p class="text-white/20 text-sm font-bold tracking-widest uppercase">&copy; ২০২৬ শহীদ ওসমান হাদি স্মৃতি
+                পরিষদ। ইনকিলাব মঞ্চের একটি উদ্যোগ।</p>
+        </div>
+    </footer>
+
+    <script src="main.js?v=2.1"></script>
+    <script>
+        // Reveal animation on scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.reveal-up').forEach((el) => observer.observe(el));
+    </script>
+</body>
+
+</html>
+
+</html>

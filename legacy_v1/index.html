@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="bn" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>শহীদ শরীফ ওসমান হাদি স্মরণে | ইনকিলাব মঞ্চ</title>
+    <meta name="description"
+        content="শহীদ শরীফ ওসমান হাদি-র অমর স্মৃতি ও সংগ্রামের প্রতি শ্রদ্ধাঞ্জলি। ইনকিলাব মঞ্চের মুখপাত্র এবং বিপ্লবের চিরন্তন কণ্ঠস্বর।">
+    <meta name="keywords" content="শহীদ ওসমান হাদি, ইনকিলাব মঞ্চ, জুলাই বিপ্লব, বাংলাদেশ, শরীফ ওসমান হাদি">
+
+    <!-- Styles & Fonts -->
+    <link rel="stylesheet" href="style.css?v=2.0">
+    <!-- Local Font Resources -->
+
+    <!-- Local Vendor Scripts -->
+    <script src="vendor/tailwind.js"></script>
+    <script src="vendor/gsap.min.js"></script>
+    <script src="vendor/ScrollTrigger.min.js"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            crimson: '#e11d48',
+                            emerald: '#10b981',
+                            slate: '#0f172a',
+                            navy: '#020617',
+                        }
+                    },
+                    fontFamily: {
+                        heading: ['Siyam Rupali', 'Hind Siliguri', 'sans-serif'],
+                        subheading: ['Hind Siliguri', 'sans-serif'],
+                        body: ['Anek Bangla', 'sans-serif'],
+                        bengali: ['Anek Bangla', 'sans-serif'],
+                        accent: ['Atma', 'cursive'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-brand-navy text-white font-body selection:bg-brand-crimson/30">
+    <nav
+        class="fixed top-0 left-0 w-full z-50 bg-brand-navy/80 backdrop-blur-xl border-b border-white/5 transition-all duration-300 glass-nav">
+        <div class="container mx-auto px-6 h-24 flex items-center justify-between">
+            <a href="#hero"
+                class="logo text-2xl font-black bg-gradient-to-r from-white to-white/60 bg-clip-text text-transparent tracking-tighter hover:to-brand-crimson transition-all duration-500">শহীদ
+                ওসমান হাদি</a>
+            <ul class="hidden md:flex gap-10 items-center nav-links">
+                <li><a href="#hero" class="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">হোম</a>
+                </li>
+                <li><a href="#biography"
+                        class="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">জীবনী</a></li>
+                <li><a href="#gallery"
+                        class="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">গ্যালারি</a></li>
+                <li><a href="#timeline"
+                        class="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">সময়রেখা</a></li>
+                <li><a href="#quotes"
+                        class="text-sm font-bold opacity-60 hover:opacity-100 transition-opacity">উক্তি</a></li>
+                <li><a href="#justice"
+                        class="px-5 py-2.5 bg-brand-crimson/10 border border-brand-crimson/20 rounded-full text-brand-crimson text-sm font-black hover:bg-brand-crimson hover:text-white transition-all duration-300">বিচার
+                        চাই</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+    <!-- Hero Section - Revolutionary 2-Column Layout -->
+    <section id="hero" class="relative min-h-screen flex items-center overflow-hidden pt-24 lg:pt-0 bg-brand-navy">
+        
+        <!-- Background Elements -->
+        <div class="absolute inset-0 z-0">
+             <div class="hero-bg-layers absolute inset-0 opacity-80"></div>
+             <div class="hero-grid-pattern absolute inset-0 opacity-20"></div>
+             <!-- Red Alert Glow -->
+             <div class="absolute right-0 top-1/2 -translate-y-1/2 w-[50vw] h-[50vw] bg-brand-crimson/10 blur-[150px] rounded-full mix-blend-screen pointer-events-none"></div>
+        </div>
+
+        <div class="container relative z-10 px-6">
+            <div class="grid lg:grid-cols-12 gap-8 items-center min-h-[85vh]">
+                
+                <!-- Left Column: Manifesto & Content (7 Cols) -->
+                <div class="lg:col-span-7 space-y-8 relative z-20">
+                    
+                    <!-- Revolutionary Badge -->
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-sm bg-brand-crimson/10 border-l-4 border-brand-crimson backdrop-blur-md reveal-left">
+                        <span class="w-2 h-2 rounded-full bg-brand-crimson animate-pulse"></span>
+                        <span class="text-brand-crimson font-bold uppercase tracking-widest text-xs">Biplobi Cetona</span>
+                    </div>
+
+                    <!-- Main Title: Organized & Bold -->
+                    <div class="space-y-4 reveal-left delay-100">
+                        <h1 class="text-5xl lg:text-7xl font-black text-white leading-[0.9] tracking-tight uppercase">
+                            <span class="block text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">Shahid</span>
+                            <span class="block text-brand-crimson drop-shadow-lg text-outline-heavy">Osman Hadi</span>
+                        </h1>
+                        <p class="text-xl lg:text-2xl text-gray-300 font-medium italic border-l-2 border-white/20 pl-4">
+                            "The fire of revolution never dies, it only changes hands."
+                        </p>
+                    </div>
+
+                    <!-- Metadata Grid -->
+                    <div class="grid grid-cols-2 gap-6 py-6 border-t border-b border-white/10 reveal-left delay-200">
+                        <div>
+                            <h3 class="text-xs uppercase tracking-widest text-brand-crimson mb-1 font-bold">Designation</h3>
+                            <p class="text-white font-bold text-lg">Central Coordinator</p>
+                            <p class="text-gray-400 text-sm">Fintech & Energy Sector</p>
+                        </div>
+                        <div>
+                            <h3 class="text-xs uppercase tracking-widest text-brand-crimson mb-1 font-bold">Martyrdom</h3>
+                            <p class="text-white font-bold text-lg">August 05, 2024</p>
+                            <p class="text-gray-400 text-sm">Jatrabari, Dhaka</p>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="flex flex-wrap gap-4 pt-2 reveal-left delay-300">
+                        <a href="#petition" class="group relative px-8 py-4 bg-brand-crimson text-white font-bold uppercase tracking-wider overflow-hidden clip-path-slant hover:bg-red-700 transition-colors">
+                            <span class="relative z-10 flex items-center gap-2">
+                                Demand Justice
+                                <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+                            </span>
+                        </a>
+                        <a href="#bio" class="px-8 py-4 border border-white/20 text-white font-bold uppercase tracking-wider hover:bg-white/5 transition-colors">
+                            Read Biography
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Column: Justice Card & Image (5 Cols) -->
+                <div class="lg:col-span-5 relative flex justify-center lg:justify-end reveal-right delay-200">
+                    
+                    <!-- Background Image (Subtle) -->
+                    <div class="absolute -right-20 bottom-0 w-[120%] opacity-20 lg:opacity-40 mix-blend-luminosity z-0 pointer-events-none">
+                        <img src="assets/image-343284-1766087320.webp" alt="Background Portrait" class="w-full mask-hero-vignette">
+                    </div>
+
+                    <!-- JUSTICE CARD: The Main Focus -->
+                    <div class="hero-justice-card relative z-10 w-full max-w-md bg-[#0f172a] border-2 border-brand-crimson/50 shadow-[0_0_50px_rgba(225,29,72,0.2)] p-1">
+                        <!-- Card Header -->
+                        <div class="bg-brand-crimson/10 p-4 border-b border-brand-crimson/30 flex justify-between items-center">
+                            <div class="flex items-center gap-2">
+                                <div class="w-3 h-3 bg-red-500 rounded-full animate-ping"></div>
+                                <span class="text-red-500 font-bold uppercase tracking-wider text-sm">Status: Unresolved</span>
+                            </div>
+                            <span class="text-white/50 text-xs font-mono">CASE #05-AUG-2024</span>
+                        </div>
+
+                        <!-- Card Body (Counter) -->
+                        <div class="p-8 text-center bg-gradient-to-b from-[#0f172a] to-[#020617]">
+                            <h3 class="text-gray-400 uppercase tracking-[0.2em] text-xs font-bold mb-4">Time Since Martyrdom</h3>
+                            
+                            <div class="flex justify-center items-end gap-2 mb-2">
+                                <span id="hero-days-count" class="text-7xl font-black text-white leading-none font-mono">000</span>
+                                <span class="text-brand-crimson text-xl font-bold mb-2">DAYS</span>
+                            </div>
+                            
+                            <div class="w-full h-1 bg-white/10 mt-6 mb-4 relative overflow-hidden">
+                                <div class="absolute inset-y-0 left-0 bg-brand-crimson w-2/3 animate-pulse-bar"></div>
+                            </div>
+
+                            <p class="text-sm text-gray-400 font-mono">
+                                "Justice delayed is justice denied."
+                            </p>
+                        </div>
+
+                        <!-- Card Footer -->
+                        <div class="p-4 border-t border-white/10 bg-white/5 flex flex-col gap-2">
+                            <div class="flex justify-between text-xs text-gray-400 font-mono">
+                                <span>TOTAL SIGNATURES:</span>
+                                <span class="text-white font-bold">14,204</span>
+                            </div>
+                            <div class="flex justify-between text-xs text-gray-400 font-mono">
+                                <span>NEXT HEARING:</span>
+                                <span class="text-white font-bold">PENDING</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-50">
+            <span class="text-[10px] uppercase tracking-[0.2em] text-white">Scroll</span>
+            <div class="w-[1px] h-12 bg-gradient-to-b from-white to-transparent"></div>
+        </div>
+
+    </section>
+
+        <!-- Biography Section -->
+        <section id="biography" class="py-32 relative bg-brand-navy overflow-hidden">
+            <div class="container mx-auto px-6 relative z-10">
+                <div class="flex flex-col lg:flex-row gap-20 items-start">
+                    <!-- Title Column -->
+                    <div class="lg:w-1/3 sticky top-32">
+                        <h2 class="text-6xl font-black text-white/10 uppercase tracking-tighter leading-none mb-4">
+                            Biography</h2>
+                        <h3 class="text-5xl font-black text-brand-emerald mb-8 font-heading section-title text-left">
+                            জীবন ও সংগ্রাম</h3>
+                        <div class="w-20 h-2 bg-brand-emerald rounded-full"></div>
+                    </div>
+
+                    <!-- Content Column -->
+                    <div class="lg:w-2/3 space-y-16">
+                        <p class="text-3xl font-medium text-white/80 leading-relaxed font-bengali bio-intro">
+                            <strong class="text-brand-emerald">শারীফ ওসমান বিন হাদি</strong> (জন্মগত নাম: ওসমান গনি)
+                            ছিলেন একবিংশ শতাব্দীর বাংলাদেশের একজন অন্যতম প্রভাবশালী বিপ্লবী কণ্ঠস্বর। ১৯৯৩ সালের ৩০ জুন
+                            ঝালকাঠির নলছিটির এক ধর্মপ্রাণ পরিবারে মাওলানা আব্দুল হাদির কনিষ্ঠ সন্তান হিসেবে তার জন্ম।
+                        </p>
+
+                        <div class="grid md:grid-cols-2 gap-8 bio-details-grid">
+                            <div
+                                class="p-10 bg-white/5 border border-white/10 rounded-[3rem] hover:bg-white/10 transition-colors group">
+                                <span class="text-4xl mb-6 block group-hover:scale-110 transition-transform">🎓</span>
+                                <h4 class="text-2xl font-black text-white mb-4">শিক্ষা জীবন</h4>
+                                <p class="text-white/50 leading-relaxed">তিনি ঝালকাঠির নেছারাবাদ কামিল মাদরাসা থেকে আলিম
+                                    সম্পন্ন করেন। পরবর্তীতে <strong class="text-white">ঢাকা বিশ্ববিদ্যালয়ের</strong>
+                                    রাষ্ট্রবিজ্ঞান বিভাগ থেকে উচ্চশিক্ষা লাভ করেন।</p>
+                            </div>
+                            <div
+                                class="p-10 bg-white/5 border border-white/10 rounded-[3rem] hover:bg-white/10 transition-colors group">
+                                <span class="text-4xl mb-6 block group-hover:scale-110 transition-transform">💼</span>
+                                <h4 class="text-2xl font-black text-white mb-4">পেশাগত জীবন</h4>
+                                <p class="text-white/50 leading-relaxed">একজন স্বপ্নদ্রষ্টা শিক্ষক হিসেবে তিনি ঢাকার
+                                    <strong class="text-white">'ইউনিভার্সিটি অব স্কলার্স'</strong>-এর বিজনেস স্টাজিজ
+                                    বিভাগে লেকচারার হিসেবে কর্মরত ছিলেন।
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="space-y-12 pt-8">
+                            <div class="flex gap-8 group">
+                                <div
+                                    class="w-16 h-16 shrink-0 bg-brand-emerald/10 text-brand-emerald rounded-2xl flex items-center justify-center text-3xl font-black border border-brand-emerald/20">
+                                    ✒️</div>
+                                <div>
+                                    <h4 class="text-2xl font-black text-white mb-3">সাহিত্য ও সংস্কৃতি</h4>
+                                    <p class="text-white/50 leading-relaxed">ওসমান হাদি কেবল একজন বিপ্লবীই ছিলেন না, তার
+                                        ভেতরে বাস করত এক সংবেদনশীল কবির মন। ২০২৪ সালের অমর একুশে বইমেলায় তার <strong
+                                            class="text-white italic">'লভায় লালশাক পূবের আকাশ'</strong> নামে একটি
+                                        কাব্যগ্রন্থ প্রকাশিত হয়।</p>
+                                </div>
+                            </div>
+
+                            <div class="bg-brand-crimson/5 border-l-8 border-brand-crimson p-12 rounded-3xl !my-16">
+                                <blockquote class="text-4xl font-black text-white italic leading-tight font-bengali">
+                                    "যদি জুলাইয়ের সাথে গাদ্দারি করেন, আমার বাপেও আমার বাপ না।"
+                                </blockquote>
+                            </div>
+
+                            <div class="flex gap-8 group">
+                                <div
+                                    class="w-16 h-16 shrink-0 bg-brand-crimson/10 text-brand-crimson rounded-2xl flex items-center justify-center text-3xl font-black border border-brand-crimson/20">
+                                    ⚖️</div>
+                                <div>
+                                    <h4 class="text-2xl font-black text-white mb-3">বিপ্লবী দর্শন: 'ইনসাফ'</h4>
+                                    <p class="text-white/50 leading-relaxed">তার রাজনীতির মূল দর্শন ছিল <strong
+                                            class="text-white italic">'ইকুয়াল সভারেন্টি'</strong> বা <strong
+                                            class="text-white italic">'ইনসাফ' (Insaf)</strong>। তিনি বিশ্বাস করতেন, একটি
+                                        রাষ্ট্রের প্রকৃত সার্বভৌমত্ব তখনই অর্জিত হয় যখন তা বাহ্যিক আধিপত্যমুক্ত হয়।</p>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-8 group bio-card p-4">
+                                <div
+                                    class="w-16 h-16 shrink-0 bg-white/5 text-white/40 rounded-2xl flex items-center justify-center text-3xl font-black border border-white/10">
+                                    🛡️</div>
+                                <div>
+                                    <h4 class="text-2xl font-black text-white mb-3">ত্যাগ ও ঝুঁকি</h4>
+                                    <p class="text-white/50 leading-relaxed">ইনকিলাব মঞ্চের মুখপাত্র হিসেবে ভারতীয়
+                                        আধিপত্যবাদের বিরুদ্ধে তার আপোষহীন অবস্থান তাকে অনেক বিপদের মুখে ফেলেছিল।
+                                        শাহাদাতের কিছুদিন আগ পর্যন্ত তিনি বিদেশি প্রায় <strong class="text-white">৩০টিরও
+                                            বেশি নম্বর</strong> থেকে প্রাণনাশের হুমকি পেয়েছিলেন।</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Memory Album (Redesigned) -->
+        <section id="gallery" class="py-32 bg-brand-navy relative overflow-hidden section alternate-bg">
+            <div class="container mx-auto px-6 relative z-10">
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
+                    <div>
+                        <h2 class="text-6xl font-black text-white/5 uppercase tracking-tighter leading-none mb-4">Memory
+                            Album</h2>
+                        <h3
+                            class="text-5xl font-black text-white font-heading cinematic-heading section-title text-left mb-0">
+                            স্মৃতি অ্যালবাম</h3>
+                    </div>
+                    <div class="h-px grow bg-white/5 mx-12 hidden lg:block"></div>
+                    <a href="gallery.html"
+                        class="group flex items-center gap-4 px-8 py-4 bg-white/5 border border-white/10 rounded-2xl hover:bg-brand-emerald hover:border-brand-emerald transition-all duration-500">
+                        <span class="font-black uppercase tracking-widest text-sm text-white">See Full Gallery</span>
+                        <span class="text-2xl group-hover:translate-x-2 transition-transform">→</span>
+                    </a>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 auto-rows-[300px] gap-6">
+                    <!-- Major Focus: Video -->
+                    <div
+                        class="lg:col-span-2 lg:row-span-2 group relative overflow-hidden rounded-[3rem] border border-white/10 bg-brand-slate/40 bento-item bento-large">
+                        <iframe src="https://www.youtube.com/embed/cKY5C-2HnUY?si=tq9c6jFygkWx2Piq"
+                            class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
+                            title="শহীদ ওসমান হাদি - বক্তব্য" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-brand-navy via-transparent to-transparent pointer-events-none">
+                        </div>
+                        <div class="absolute bottom-10 left-10 pointer-events-none media-overlay p-0">
+                            <span
+                                class="px-4 py-1.5 bg-brand-crimson text-white text-[10px] font-black uppercase tracking-widest rounded-full mb-4 inline-block">বক্তব্য</span>
+                            <h3 class="text-3xl font-black text-white font-heading">বিপ্লবের রাজপথে কণ্ঠস্বর</h3>
+                            <h4 class="text-2xl font-black text-white font-heading">লভায় লালশাক পূবের আকাশ</h4>
+                        </div>
+                    </div>
+
+                    <!-- Local Video / Animation -->
+                    <div
+                        class="lg:row-span-2 group relative overflow-hidden rounded-[3rem] border border-white/10 bg-brand-slate bento-item bento-tall">
+                        <img src="assets/8f47e6b93edaf5672e43f1c575ddf0db2b6fe0a5b96a1330.jpg"
+                            class="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity duration-700"
+                            alt="স্মৃতি">
+                        <div class="absolute bottom-8 left-8 media-overlay p-0">
+                            <span
+                                class="text-brand-emerald font-black uppercase tracking-widest text-[10px] block mb-2">বিরামহীন
+                                সংগ্রাম</span>
+                        </div>
+                    </div>
+
+                    <!-- Small Photos -->
+                    <div
+                        class="group relative overflow-hidden rounded-[3rem] border border-white/10 bento-item bento-small">
+                        <img src="assets/Osman-Hadi.jpg"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                            alt="আন্দোলন">
+                        <div
+                            class="absolute inset-x-0 bottom-0 p-8 bg-gradient-to-t from-brand-navy to-transparent media-overlay">
+                            <span class="text-white/60 text-[10px] font-black uppercase tracking-widest">জুলাই
+                                বিপ্লব</span>
+                        </div>
+                    </div>
+
+                    <div
+                        class="group relative overflow-hidden rounded-[3rem] border border-white/10 bento-item bento-small">
+                        <img src="assets/image-343646-1766224013.jpg"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                            alt="বিচার দাবি">
+                        <div
+                            class="absolute inset-x-0 bottom-0 p-8 bg-gradient-to-t from-brand-navy to-transparent media-overlay">
+                            <span class="text-white/60 text-[10px] font-black uppercase tracking-widest">বিচার
+                                চাই</span>
+                        </div>
+                    </div>
+
+                    <!-- Quote/Card item -->
+                    <div
+                        class="lg:col-span-2 group relative overflow-hidden rounded-[3rem] bg-brand-crimson/10 border border-brand-crimson/20 p-12 flex flex-col justify-between">
+                        <div
+                            class="w-16 h-16 bg-brand-crimson/20 rounded-2xl flex items-center justify-center text-3xl">
+                            🏛️</div>
+                        <div>
+                            <h3 class="text-3xl font-black text-white mb-2 font-accent">জাতীয় সরকার</h3>
+                            <p class="text-brand-crimson font-bold uppercase tracking-widest text-xs">ঐতিহাসিক ডাক ও
+                                রাজনৈতিক দর্শন</p>
+                        </div>
+                        <div class="absolute top-0 right-0 p-12 opacity-10 group-hover:opacity-20 transition-opacity">
+                            <span class="text-8xl font-black">⚖️</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline Section (Advanced Zigzag) -->
+        <section id="timeline" class="py-40 bg-brand-navy relative overflow-hidden">
+            <div
+                class="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(16,185,129,0.05),transparent)] opacity-50">
+            </div>
+            <div class="container mx-auto px-6 relative z-10">
+                <div class="text-center mb-32">
+                    <h2 class="text-8xl font-black text-white/5 uppercase tracking-tighter leading-none">The Path</h2>
+                    <h3
+                        class="text-5xl font-black text-brand-emerald -mt-6 font-heading section-title cinematic-heading">
+                        বিপ্লবী
+                        সময়রেখা</h3>
+                </div>
+
+                <div class="relative max-w-7xl mx-auto">
+                    <!-- Progress Line -->
+                    <div class="absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-1 bg-white/5 hidden md:block">
+                        <div id="timeline-progress"
+                            class="absolute top-0 left-0 w-full bg-brand-emerald origin-top scale-y-0 shadow-[0_0_20px_rgba(16,185,129,0.5)]">
+                        </div>
+                    </div>
+
+                    <div id="timeline-container" class="relative space-y-24 md:space-y-0">
+                        <!-- Cards will be injected by main.js -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quotes Section -->
+        <section id="quotes" class="py-32 bg-brand-navy relative overflow-hidden">
+            <div
+                class="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(225,29,72,0.1),transparent)] opacity-50">
+            </div>
+            <div class="container mx-auto px-6 relative z-10">
+                <div class="text-center mb-24">
+                    <h2 class="text-8xl font-black text-white/5 uppercase tracking-tighter leading-none">Eternal Words
+                    </h2>
+                    <h3
+                        class="text-4xl font-black text-brand-crimson -mt-6 font-heading section-title cinematic-heading">
+                        অমর উক্তি
+                    </h3>
+                </div>
+
+                <div class="quotes-particles-container absolute inset-0 pointer-events-none"></div>
+
+                <div class="max-w-6xl mx-auto">
+                    <div class="quotes-slider relative" id="quotes-container">
+                        <!-- Dynamic Content -->
+                    </div>
+
+                    <div class="mt-20 flex items-center justify-center gap-12">
+                        <div class="h-1 lg:w-96 bg-white/5 rounded-full overflow-hidden">
+                            <div id="quote-progress-bar"
+                                class="h-full bg-brand-crimson w-0 transition-all duration-300"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Justice & Freedom Section -->
+        <section id="justice" class="py-32 bg-brand-navy relative overflow-hidden">
+            <div class="blood-dust-container absolute inset-0 pointer-events-none"></div>
+            <div
+                class="absolute inset-0 bg-gradient-to-b from-brand-crimson/10 via-transparent to-transparent opacity-30">
+            </div>
+
+            <div class="container mx-auto px-6 relative z-10">
+                <div class="flex flex-col lg:flex-row gap-24 items-center">
+                    <div class="lg:w-1/2 space-y-12">
+                        <div class="space-y-4">
+                            <span class="text-brand-crimson font-black tracking-[0.3em] uppercase text-xs">লড়াই চলবে
+                                নিরন্তর</span>
+                            <h2
+                                class="text-7xl lg:text-9xl font-black text-white tracking-tighter leading-none cinematic-heading">
+                                বিচার চাই<br>
+                                <span class="text-brand-crimson">মুক্তি চাই</span>
+                            </h2>
+                        </div>
+
+                        <p class="text-2xl text-white/50 font-medium leading-relaxed font-bengali max-w-xl">
+                            শহীদ ওসমান হাদির হত্যার বিচার এবং দোষীদের দৃষ্টান্তমূলক শাস্তির দাবিতে আমরা সোচ্চার। আপনার
+                            একটি স্বাক্ষর এই লড়াইকে আরও শক্তিশালী করবে।
+                        </p>
+
+                        <div class="pt-8">
+                            <button id="open-signature-btn"
+                                class="group relative px-12 py-6 bg-brand-crimson text-white rounded-[2rem] font-black text-xl overflow-hidden transition-all hover:scale-105 shadow-2xl shadow-brand-crimson/40">
+                                <span class="relative z-10 flex items-center gap-4 font-accent">
+                                    সংহতি স্বাক্ষর দিন <span class="text-3xl">🖋️</span>
+                                </span>
+                                <div
+                                    class="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="lg:w-1/2 w-full">
+                        <div class="relative group" id="justice-dashboard">
+                            <div
+                                class="absolute -inset-10 bg-brand-crimson/20 blur-[120px] rounded-full opacity-0 group-hover:opacity-100 transition-opacity">
+                            </div>
+                            <div
+                                class="relative bg-brand-slate/40 backdrop-blur-3xl border border-white/10 p-16 rounded-[4rem] shadow-3xl">
+                                <div class="flex items-center gap-4 mb-12">
+                                    <span class="w-3 h-3 rounded-full bg-brand-crimson animate-ping"></span>
+                                    <span class="text-white/40 font-black uppercase tracking-[0.3em] text-[10px]">Live
+                                        Justice Tracker</span>
+                                </div>
+                                <div class="flex items-baseline gap-6 justify-center">
+                                    <span id="days-count"
+                                        class="text-[12rem] font-black text-white leading-none tracking-tighter counter-val">0</span>
+                                    <span
+                                        class="text-4xl font-black text-white/20 uppercase tracking-widest counter-suffix">Days</span>
+                                </div>
+                                <p
+                                    class="text-3xl font-black text-brand-crimson uppercase tracking-widest font-heading underline decoration-white/10 underline-offset-8">
+                                    বিচারহীনতার অন্ধকার</p>
+                            </div>
+                            <div class="mt-16 pt-12 border-t border-white/5 flex items-center gap-6">
+                                <div
+                                    class="w-16 h-16 rounded-2xl bg-white/5 flex items-center justify-center text-3xl opacity-50">
+                                    📅</div>
+                                <p class="text-white/30 font-bold uppercase tracking-widest text-xs">১৮ ডিসেম্বর
+                                    ২০২৫ থেকে অবিরাম লড়াই</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Solidarity Signature Modal -->
+    <div id="signature-modal"
+        class="fixed inset-0 z-[100] hidden items-center justify-center p-6 bg-brand-navy/90 backdrop-blur-sm">
+        <div class="bg-brand-slate p-12 rounded-[3rem] border border-white/10 w-full max-w-2xl relative">
+            <button
+                class="modal-close absolute top-8 right-8 text-4xl text-white/20 hover:text-white transition-colors">&times;</button>
+            <div class="mb-10 text-center">
+                <h2 class="text-4xl font-black text-white mb-4 font-heading">সংহতি স্বাক্ষর</h2>
+                <p class="text-white/40">শহীদ ওসমান হাদির স্মরণে আপনার নাম এবং সংহতি বার্তাটি রেকর্ড করুন।</p>
+            </div>
+            <form id="signature-form" class="space-y-8">
+                <div class="space-y-3">
+                    <label for="sig-name" class="text-xs font-black uppercase tracking-[0.3em] text-white/40 ml-4">আপনার
+                        নাম</label>
+                    <input type="text" id="sig-name" name="name"
+                        class="w-full bg-white/5 border border-white/10 rounded-2xl py-5 px-8 text-white placeholder:text-white/10 focus:border-brand-emerald focus:ring-0 transition-all"
+                        placeholder="পুরো নাম লিখুন" required>
+                </div>
+                <div class="space-y-3">
+                    <label for="sig-message"
+                        class="text-xs font-black uppercase tracking-[0.3em] text-white/40 ml-4">সংহতি বার্তা
+                        (ঐচ্ছিক)</label>
+                    <textarea id="sig-message" name="message" rows="4"
+                        class="w-full bg-white/5 border border-white/10 rounded-2xl py-5 px-8 text-white placeholder:text-white/10 focus:border-brand-emerald focus:ring-0 transition-all resize-none"
+                        placeholder="আপনার বার্তা লিখুন..."></textarea>
+                </div>
+                <button type="submit"
+                    class="w-full py-6 bg-brand-emerald text-white rounded-2xl font-black text-lg transition-all hover:scale-[1.02] shadow-xl shadow-brand-emerald/20 font-bengali">
+                    স্বাক্ষর নিশ্চিত করুন
+                </button>
+                <div id="form-status" class="text-center font-bold"></div>
+            </form>
+        </div>
+    </div>
+
+    <footer class="py-16 bg-brand-navy border-t border-white/5 text-center">
+        <div class="container mx-auto px-6">
+            <p class="text-white/20 text-sm font-bold tracking-widest uppercase">&copy; ২০২৬ শহীদ ওসমান হাদি স্মৃতি
+                পরিষদ। ইনকিলাব মঞ্চের একটি উদ্যোগ।</p>
+        </div>
+    </footer>
+
+    <script src="main.js?v=2.0"></script>
+</body>
+
+</html>
